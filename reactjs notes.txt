@@ -1,0 +1,21 @@
+1.What is react?
+
+react is open source library for building user interfaces
+
+-->not a framework
+-->focus only on UI
+-->rich eco system
+
+2.Why react
+
+react is created and maintained by facebook
+
+-->indemand skillset
+-->react has component based architecture
+-->reusable code
+
+3.react is declarative
+
+-->tell react what you want it will build the actual ui
+-->react will handle efficiently rendering and updating of components
+-->dom updates are handled gracefully in react
