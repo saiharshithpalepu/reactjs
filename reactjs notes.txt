@@ -19,3 +19,9 @@ react is created and maintained by facebook
 -->tell react what you want it will build the actual ui
 -->react will handle efficiently rendering and updating of components
 -->dom updates are handled gracefully in react
+
+------------------------------------
+props are immutable
+
+props are passed to the component  state is maintained in the component
+function parameters  variables declared in the function body
