@@ -5,8 +5,16 @@ import React from 'react'
 //     return <h1>Hello harshith</h1>
 // }
 
+// const Greet = ({name,heroname})=>{
+//     return <h1>Hello {name} a.ka. {heroname}</h1>
+// }
+
 const Greet = (props)=>{
-    return <h1>Hello {props.name} a.ka. {props.heroname}</h1>
+  const {name,heroname} = props
+    return <h1>Hello {name} a.ka. {heroname}</h1>
 }
+
+
+
 
 export default Greet
