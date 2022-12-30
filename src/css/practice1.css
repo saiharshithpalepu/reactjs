@@ -1,0 +1,43 @@
+select{
+    width: 25vw;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    background: black;
+}
+
+
+.name{
+    margin-top: 30px;
+    font-size:30px;
+    font-weight: bold;
+    color:blue;
+    text-transform: capitalize;
+    
+}
+
+.name.active{
+    animation: scaleup 2s ; 
+}
+
+@keyframes scaleup{
+     0%{
+         color:green;
+        scale: 0.2;
+    }
+
+    50%{
+        color:red;
+        scale:0.6
+    }
+
+    100%{
+    color:blue;
+    scale:1
+    }
+}
